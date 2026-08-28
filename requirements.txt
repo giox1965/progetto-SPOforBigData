@@ -1,0 +1,11 @@
+numpy
+scipy
+pandas
+networkx
+pygsp
+cvxpy
+matplotlib
+seaborn
+scikit-learn
+libpysal
+cvxpy
