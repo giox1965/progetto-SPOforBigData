@@ -23,7 +23,7 @@ Vengono analizzate e confrontate tre strategie di stima dei coefficienti del fil
 ├── graph_signal_generator.py     # Generatore di segnali a banda limitata e disturbo AWGN
 ├── graph_filter_ls.py            # Modulo filtri: Least Squares Spettrale e Data-Driven (Krylov)
 ├── main_energy.py                # Pipeline di test per i metodi spettrali (Oracolo vs Energia)
-├── main_data_driven.py           # Pipeline di test per il metodo Data-Driven (Train/Test Out-of-Sample)
+├── main_data_driven.py           # Pipeline di test per il metodo Data-Driven (Train/Test)
 ├── grid_search_energy.py         # Grid search parametrica (K x SNR_in) per metodi spettrali
 ├── grid_search_datadriven.py     # Grid search parametrica (K x SNR_in) per il metodo Data-Driven
 ├── requirements.txt              # Dipendenze Python necessarie
