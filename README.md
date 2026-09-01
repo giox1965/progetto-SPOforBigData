@@ -28,6 +28,7 @@ Vengono analizzate e confrontate tre strategie di stima dei coefficienti del fil
 ├── grid_search_datadriven.py     # Grid search parametrica (K x SNR_in) per il metodo Data-Driven
 ├── requirements.txt              # Dipendenze Python necessarie
 └── README.md
+```
 
 ### Creazione e Attivazione dell'Ambiente Virtuale
 
