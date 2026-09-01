@@ -50,7 +50,6 @@ class GraphFilterLS:
 
         return self.h
     
-
     def filter(self, x: np.ndarray) -> np.ndarray:
         """Applica direttamente il filtro polinomiale: y = H(L)x = sum_{k=0}^K h_k * (L^k x).
         y = H(L)x = \sum_{k=0}^K h_k L^k x = h_0 x + h_1 L x + h_2 L^2 x + ... + h_K L^K x
@@ -67,7 +66,6 @@ class GraphFilterLS:
             y += self.h[k] * curr
 
         return y
-
 
     def _build_krylov_matrix(self, x: np.ndarray) -> np.ndarray:
 
